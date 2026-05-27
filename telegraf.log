@@ -1,0 +1,14 @@
+2026-05-27T05:07:46Z W! Strict environment variable handling is the new default starting with v1.38.0! If your configuration does not work with strict handling please explicitly add the --non-strict-env-handling flag to switch to the previous behavior!
+2026-05-27T05:07:46Z I! Loading config: crms_test.conf
+2026-05-27T05:07:46Z I! Starting Telegraf 1.38.4 brought to you by InfluxData the makers of InfluxDB
+2026-05-27T05:07:46Z I! Available plugins: 244 inputs, 9 aggregators, 35 processors, 26 parsers, 68 outputs, 8 secret-stores
+2026-05-27T05:07:46Z I! Loaded inputs: disk mem
+2026-05-27T05:07:46Z I! Loaded aggregators:
+2026-05-27T05:07:46Z I! Loaded processors:
+2026-05-27T05:07:46Z I! Loaded secretstores:
+2026-05-27T05:07:46Z I! Loaded outputs: file
+2026-05-27T05:07:46Z I! Tags enabled: host=junseolee
+2026-05-27T05:07:46Z I! [agent] Config: Interval:5s, Quiet:false, Hostname:"junseolee", Flush Interval:5s
+2026-05-27T05:07:46Z W! [agent] The default value of 'skip_processors_after_aggregators' will change to 'true' with Telegraf v1.40.0! If you need the current default behavior, please explicitly set the option to 'false'!
+2026-05-27T05:08:46Z I! [agent] Hang on, flushing any cached metrics before shutdown
+2026-05-27T05:08:46Z I! [agent] Stopping running outputs
