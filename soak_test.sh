@@ -27,8 +27,8 @@ echo "Telegraf started (PID: $TEL_PID)" >> $LOG_FILE
 printf "%-20s %-10s %-10s %-15s\n" "TIME" "RSS(KB)" "Goroutines" "Heap_Alloc(B)" >> $LOG_FILE
 
 # Monitor the agent every 10 minutes (600 seconds) for a total of 24 hours (144 iterations).
-for i in {1..144}; do
-    sleep 600
+for i in {1..72}; do
+    sleep 300
     if ps -p $TEL_PID > /dev/null; then
         # Capture OS-level memory usage.
         RSS=$(ps -p $TEL_PID -o rss | tail -n 1 | tr -d ' ')
