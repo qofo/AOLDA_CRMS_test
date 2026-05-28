@@ -1,0 +1,101 @@
+2026-05-28T07:47:26Z W! Strict environment variable handling is the new default starting with v1.38.0! If your configuration does not work with strict handling please explicitly add the --non-strict-env-handling flag to switch to the previous behavior!
+2026-05-28T07:47:26Z I! Loading config: crms_blackhole.conf
+2026-05-28T07:47:26Z I! Starting Telegraf 1.38.4 brought to you by InfluxData the makers of InfluxDB
+2026-05-28T07:47:26Z I! Available plugins: 244 inputs, 9 aggregators, 35 processors, 26 parsers, 68 outputs, 8 secret-stores
+2026-05-28T07:47:26Z I! Loaded inputs: internal mem
+2026-05-28T07:47:26Z I! Loaded aggregators:
+2026-05-28T07:47:26Z I! Loaded processors:
+2026-05-28T07:47:26Z I! Loaded secretstores:
+2026-05-28T07:47:26Z I! Loaded outputs: file http
+2026-05-28T07:47:26Z I! Tags enabled: host=junseolee
+2026-05-28T07:47:26Z I! [agent] Config: Interval:1s, Quiet:false, Hostname:"junseolee", Flush Interval:1s
+2026-05-28T07:47:26Z W! [agent] The default value of 'skip_processors_after_aggregators' will change to 'true' with Telegraf v1.40.0! If you need the current default behavior, please explicitly set the option to 'false'!
+2026-05-28T07:47:28Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:47:29Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:47:29Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:47:31Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:47:31Z W! [outputs.http] Metric buffer overflow; 5 metrics have been dropped
+2026-05-28T07:47:32Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:47:33Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:47:33Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:47:34Z W! [outputs.http] Metric buffer overflow; 17 metrics have been dropped
+2026-05-28T07:47:35Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:47:36Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:47:36Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:47:37Z W! [outputs.http] Metric buffer overflow; 17 metrics have been dropped
+2026-05-28T07:47:38Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:47:39Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:47:39Z W! [outputs.http] Metric buffer overflow; 8 metrics have been dropped
+2026-05-28T07:47:40Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:47:41Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:47:41Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:47:42Z W! [outputs.http] Metric buffer overflow; 17 metrics have been dropped
+2026-05-28T07:47:43Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:47:44Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:47:44Z W! [outputs.http] Metric buffer overflow; 8 metrics have been dropped
+2026-05-28T07:47:45Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:47:46Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:47:46Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:47:47Z W! [outputs.http] Metric buffer overflow; 17 metrics have been dropped
+2026-05-28T07:47:48Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:47:49Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:47:49Z W! [outputs.http] Metric buffer overflow; 8 metrics have been dropped
+2026-05-28T07:47:50Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:47:51Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:47:51Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:47:52Z W! [outputs.http] Metric buffer overflow; 17 metrics have been dropped
+2026-05-28T07:47:53Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:47:54Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:47:54Z W! [outputs.http] Metric buffer overflow; 8 metrics have been dropped
+2026-05-28T07:47:55Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:47:56Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:47:56Z W! [outputs.http] Metric buffer overflow; 8 metrics have been dropped
+2026-05-28T07:47:57Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:47:58Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:47:58Z W! [outputs.http] Metric buffer overflow; 8 metrics have been dropped
+2026-05-28T07:47:59Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:48:00Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:48:00Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:48:01Z W! [outputs.http] Metric buffer overflow; 17 metrics have been dropped
+2026-05-28T07:48:02Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:48:03Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:48:03Z W! [outputs.http] Metric buffer overflow; 8 metrics have been dropped
+2026-05-28T07:48:04Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:48:05Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:48:05Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:48:06Z W! [outputs.http] Metric buffer overflow; 17 metrics have been dropped
+2026-05-28T07:48:07Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:48:08Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:48:08Z W! [outputs.http] Metric buffer overflow; 8 metrics have been dropped
+2026-05-28T07:48:09Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:48:10Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:48:10Z W! [outputs.http] Metric buffer overflow; 8 metrics have been dropped
+2026-05-28T07:48:11Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:48:12Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:48:12Z W! [outputs.http] Metric buffer overflow; 8 metrics have been dropped
+2026-05-28T07:48:13Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:48:14Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:48:14Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:48:15Z W! [outputs.http] Metric buffer overflow; 17 metrics have been dropped
+2026-05-28T07:48:16Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:48:17Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:48:17Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:48:18Z W! [outputs.http] Metric buffer overflow; 17 metrics have been dropped
+2026-05-28T07:48:19Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:48:20Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:48:20Z W! [outputs.http] Metric buffer overflow; 8 metrics have been dropped
+2026-05-28T07:48:21Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:48:22Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:48:22Z W! [outputs.http] Metric buffer overflow; 8 metrics have been dropped
+2026-05-28T07:48:23Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:48:24Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:48:24Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:48:25Z W! [outputs.http] Metric buffer overflow; 17 metrics have been dropped
+2026-05-28T07:48:26Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:48:27Z I! [agent] Hang on, flushing any cached metrics before shutdown
+2026-05-28T07:48:27Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:48:27Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:48:27Z W! [outputs.http] Metric buffer overflow; 8 metrics have been dropped
+2026-05-28T07:48:28Z W! [agent] ["outputs.http"] did not complete within its flush interval
+2026-05-28T07:48:29Z E! [agent] Error writing to outputs.http: Post "http://10.255.255.255:8080/write": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-05-28T07:48:29Z I! [agent] Stopping running outputs

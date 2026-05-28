@@ -1,0 +1,16 @@
+=== [Experiment B v2] Network Blackhole & Buffer Test ===
+Telegraf started with Timeout network config (PID: 7460)
+TIME       RSS(KB)    WRITE_ERRORS    METRICS_DROPPED
+07:47:31  139508       0            0
+07:47:36  139924       0            42
+07:47:41  140348       0            0
+07:47:46  140748       0            0
+07:47:51  141140       0            0
+07:47:56  141608       0            0
+07:48:01  141744       0            0
+07:48:06  141912       0            0
+07:48:11  141932       0            348
+07:48:16  141940       0            0
+07:48:22  141956       0            0
+07:48:27  141984       0            0
+=== [Experiment B v2] Completed ===
