@@ -1,0 +1,127 @@
+    1  ls
+    2  curl -u admin: http://192.168.0.121:8041/v1/status
+    3  docker ps
+    4  curl -u admin: http://192.168.0.121:8041/v1/status
+    5  sudo apt-get update && sudo apt-get install -y telegraf
+    6  hisory
+    7  history
+    8  cd /etc/apt
+    9  ls
+   10  cd sources.list.d/
+   11  ls
+   12  rm influxdata.list 
+   13  sudo rm influxdata.list 
+   14  cd ..
+   15  cd keyrings/
+   16  ls
+   17  sudo rm influxdata-archive_compat.gpg 
+   18  cd ~
+   19  ls
+   20  cd AOLDA_CRMS_test/
+   21  ls
+   22  wget -q https://repos.influxdata.com/influxdata-archive.key
+   23  gpg --show-keys --with-fingerpring --with-colons ./influxdata-archive.key 2>&1
+   24  more influxdata-archive.key 
+   25  gpg --dearmor
+   26  cat influxdata-archive.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/influxdata-archive.gpg > /dev/null
+   27  echo 'deb [signed-by=/etc/apt/trusted.gpg.d/influxdata-archive.gpg] https://repos.influxdata.com/debian stable main' | sudo tee /etc/apt/sources.list.d/influxdata.list
+   28  sudo apt-get update && sudo apt-get install telegraf
+   29  ps
+   30  ps -a
+   31  ps -f
+   32  ps -al
+   33  ps -d
+   34  ps -d | grep telegraf
+   35  sudo systemctl stop telegraf
+   36  ls
+   37  git status
+   38  git log
+   39  git fetch
+   40  git pull origin
+   41  chmod +x run_benchmark.sh 
+   42  ./run_benchmark.sh 
+   43  sudo systemctl stop telegraf
+   44  vi crms_test.conf 
+   45  ./run_benchmark.sh 
+   46  git pull origin
+   47  git status
+   48  git restore crms_test.conf 
+   49  git restore run_benchmark.sh 
+   50  git status
+   51  git pull origin
+   52  ls -al
+   53  chmod -x run_benchmark.sh 
+   54  chmod +x run_benchmark.sh 
+   55  ./run_benchmark.sh 
+   56  ls
+   57  more output_payload.json 
+   58  git login
+   59  git status
+   60  more influxdata-archive.key 
+   61  ls
+   62  ls -al
+   63  vi .gitignore
+   64  git status
+   65  git add *
+   66  git status
+   67  git add .gitignore 
+   68  git status
+   69  git commit -m "add log, chmod run_benchmark.sh"
+   70  git config --global user.email "junseolee@ajou.ac.kr"
+   71  git config --global user.name "testNode"
+   72  git push origin
+   73  clear
+   74  git push origin
+   75  git log
+   76  git status
+   77  git commit -m "feat: add logs, chmod +x run_benchmark.sh"
+   78  git log
+   79  git push origin
+   80  clear
+   81  ls
+   82  sh run_benchmark.sh > cpu_mem_usage.log
+   83  more cpu_mem_usage.log 
+   84  ./run_benchmark.sh 
+   85  sh run_benchmark.sh > cpu_mem_usage.log
+   86  ./ run_benchmark.sh > cpu_mem_usage.log 
+   87  ./run_benchmark.sh > cpu_mem_usage.log 
+   88  more cpu_mem_usage.log 
+   89  git pull
+   90  ls
+   91  ls -al
+   92  chmod +x stress_test.sh 
+   93  chmod +x buffer_test.sh 
+   94  chmod +x soak_test.sh 
+   95  l
+   96  ls -al
+   97  ./soak_test.sh 
+   98  vi soac
+   99  vi soak_test
+  100  ls
+  101  ls -al
+  102  more soak_test_v2_result.log 
+  103  vi soak_test.sh 
+  104  ./soak_test.sh 
+  105  ls
+  106  ls -al
+  107  more soak_test_v2_result.log 
+  108  nohun
+  109  nohub
+  110  nohup ./soak_test.sh > soak_script.log 2>&1 &
+  111  ps
+  112  ls -al
+  113  more soak_script.log 
+  114  more soak_test_v2_result.log 
+  115  more soak_script.log 
+  116  ps
+  117  more soak_script.log 
+  118  more soak_test_v2_result.log 
+  119  vi soak_test.sh 
+  120  ./soak_test.sh > soak_script.log 2>&1 &
+  121  ps
+  122  git status
+  123  git diff
+  124  ps
+  125  more soak_test_v2_result.log 
+  126  history
+  127  history > history.log

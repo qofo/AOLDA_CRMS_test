@@ -1,0 +1,19 @@
+=== Starting CRMS Agent Load Test (Waiting for 60s) ===
+Telegraf started successfully (PID: 4418)
+Recording CPU and Memory (RSS KB) trends...
+TIME       CPU(%)     RSS(KB)   
+00:15:28   2.5        138476    
+00:15:33   1.3        138948    
+00:15:38   0.9        138988    
+00:15:43   0.7        139128    
+00:15:48   0.7        139204    
+00:15:53   0.5        139284    
+00:15:58   0.5        139376    
+00:16:03   0.4        139488    
+00:16:08   0.4        139564    
+00:16:14   0.4        139640    
+00:16:19   0.3        139708    
+00:16:24   0.3        139796    
+=== Test Completed ===
+Total generated JSON lines: 24
+Estimated Payload size per collection (1 JSON object): approx 556 Bytes
